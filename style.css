@@ -145,11 +145,15 @@ h5 {
   display: flex;
 }
 
+.tournament__match__team > h4{
+  padding-top: 4px;
+}
+
 .tournament__match__team__info {
   position: absolute;
   display: flex;
   gap: 2px;
-  top: -11px;
+  top: -5px;
 }
 
 .tournament__match__team__info > p:last-child {
@@ -163,7 +167,6 @@ h5 {
 
 .tournament__match__team__number {
   position: absolute;
-  top: -12px;
   right: 2px;
   font-size: 13px;
   font-weight: 800;
